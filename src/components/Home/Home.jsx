@@ -3,7 +3,10 @@ import styles from './Home.module.scss';
 
 const Home = () => {
   return (
-    <div className={styles.home}>Home works</div>
+    <div className={styles.home}>
+      <h1>Training Log</h1>
+      <p>Add a run to the calendar.</p>
+    </div>
   )
 }
 

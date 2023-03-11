@@ -1,13 +1,12 @@
 import styles from './App.module.scss';
-import Calendar from './components/Calendar/Calendar';
+import AddRun from './components/AddRun/AddRun';
 import Home from './components/Home/Home';
 
 const App = () => {
   return (
     <div className={styles.App}>
-      App works
-      <Calendar />
       <Home />
+      <AddRun />
     </div>
   );
 }
